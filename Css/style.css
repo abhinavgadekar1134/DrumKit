@@ -1,0 +1,69 @@
+body{
+  background: rgba(204, 252, 247, 1.0);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3h8r6WgfSQtNaMecuzOG4ijTZCvoF-KZP0w&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbo-head{
+    margin: auto;
+}
+.jumbo-head>p{
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+    color: rgba(252, 227, 3, .8);
+    font-family:'Architects Daughter', cursive;
+    text-shadow: 5px 5px #002e0c;
+}
+.main__div{
+  margin-left: 15rem;
+}
+.main__div >div{
+padding: 20px;
+}
+.main__div>div>img:hover{
+  border: 1px dotted black;
+}
+.main__div>div>img:active{
+  transform: scale(0.8);
+}
+.main__div >div>img{
+	height: 200px;
+	width: 200px;
+	border-radius: 90px;
+  transition: transform .3s;
+}
+
+.instrument{
+  display: inline-flex;
+  height: 230px;
+  width: 230px;
+  
+}
+#footer>p{
+  /*margin-top: 13rem;*/
+  position: all;
+  text-align: center;
+}
+#footer{
+  position: absolute;
+  bottom: 0px;
+  width: 95%;
+}
+
+
+@media (max-width: 700px) {
+  .jumbo-head{
+    font-size: 5rem;
+    }
+  .main__div{
+      margin-left: auto;
+     text-align: center;
+    } 
+  #footer{
+  position: relative;
+  bottom: 0px;
+  width: 95%;
+  }  
+ 
+}
